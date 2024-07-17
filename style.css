@@ -1,0 +1,75 @@
+html, body{
+    height: 100%;
+}
+
+hr{
+    position: absolute;
+    display: block;
+    width: 10%;
+    color: lightcyan;
+    height: 5px;
+}
+
+
+.img{
+    width: 50%;
+}
+
+
+.img img{
+    width: 40em;
+    background-color: lightblue;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.forms{
+    width: 50%;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+label{
+    font-weight: 500;
+}
+
+.opcoes label{
+    font-size: .8em;
+}
+/* /// Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    form h1, .opcoes h2{
+        font-size: 1em;
+    }
+    .col-6 label, .col-6 input{
+        font-size: 0.8em;
+    }
+
+    .opcoes label{
+        font-size: 0.7em;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    form h1, .opcoes h2{
+        font-size: 1.1em;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+
